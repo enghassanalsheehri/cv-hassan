@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hassan Al-Shehri - Civil Engineer</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.4;
+            color: #333;
+            background: white;
+            font-size: 11pt;
+        }
+        
+        .container {
+            max-width: 210mm;
+            margin: 0 auto;
+            background: white;
+            padding: 0;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .name {
+            font-size: 24pt;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+            letter-spacing: 1px;
+        }
+        
+        .title {
+            font-size: 14pt;
+            color: #34495e;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .contact {
+            font-size: 10pt;
+            color: #555;
+        }
+        
+        .section {
+            margin-bottom: 20px;
+        }
+        
+        .section-title {
+            font-size: 14pt;
+            font-weight: bold;
+            color: #2c3e50;
+            border-bottom: 1px solid #bdc3c7;
+            padding-bottom: 3px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        
+        .objective {
+            text-align: justify;
+            font-size: 11pt;
+            line-height: 1.5;
+        }
+        
+        .job-title {
+            font-size: 12pt;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .company {
+            font-size: 11pt;
+            color: #7f8c8d;
+            margin-bottom: 3px;
+        }
+        
+        .date {
+            font-size: 10pt;
+            color: #95a5a6;
+            font-style: italic;
+            margin-bottom: 8px;
+        }
+        
+        .job-duties {
+            margin-left: 15px;
+        }
+        
+        .job-duties li {
+            margin-bottom: 4px;
+            list-style: none;
+            position: relative;
+            padding-left: 15px;
+        }
+        
+        .job-duties li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+        
+        .education-item {
+            margin-bottom: 10px;
+        }
+        
+        .degree {
+            font-size: 12pt;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .university {
+            font-size: 11pt;
+            color: #7f8c8d;
+        }
+        
+        .gpa {
+            font-size: 11pt;
+            color: #27ae60;
+            font-weight: bold;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        
+        .skills-category h4 {
+            font-size: 11pt;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        
+        .skills-list {
+            font-size: 10pt;
+            line-height: 1.4;
+        }
+        
+        .cert-item {
+            margin-bottom: 8px;
+        }
+        
+        .cert-name {
+            font-size: 11pt;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .cert-desc {
+            font-size: 10pt;
+            color: #7f8c8d;
+        }
+        
+        .achievements {
+            margin-top: 10px;
+        }
+        
+        .achievements li {
+            margin-bottom: 5px;
+            list-style: none;
+            position: relative;
+            padding-left: 15px;
+            font-size: 10pt;
+        }
+        
+        .achievements li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #27ae60;
+            font-weight: bold;
+        }
+        
+        .strengths {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        
+        .strength-item {
+            background: #ecf0f1;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 10pt;
+            color: #2c3e50;
+        }
+        
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            
+            button {
+                display: none !important;
+            }
+            
+            [style*="print: none"] {
+                display: none !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="name">HASSAN AL-SHEHRI</div>
+            <div class="title">CIVIL ENGINEER</div>
+            <div class="contact">Jeddah, Saudi Arabia | 0508123332 | eng.hassanalsheehri@gmail.com</div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Career Objective</div>
+            <div class="objective">
+                Results-driven Civil Engineer with proven expertise in construction supervision, project management, and quality assurance. Seeking to leverage advanced BIM modeling skills, site engineering experience, and safety management certifications to deliver innovative infrastructure solutions while ensuring compliance with international standards and optimizing project efficiency.
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Professional Experience</div>
+            
+            <div style="margin-bottom: 15px;">
+                <div class="job-title">Site Engineer</div>
+                <div class="company">Radial Construction</div>
+                <div class="date">July 2024 – Present</div>
+                <ul class="job-duties">
+                    <li>Led multidisciplinary construction teams to deliver projects 15% ahead of schedule</li>
+                    <li>Optimized site operations through strategic workforce allocation and real-time progress monitoring</li>
+                    <li>Implemented comprehensive quality control protocols, achieving 98% material compliance rates</li>
+                    <li>Coordinated with 20+ stakeholders including contractors, suppliers, and consultants to resolve critical site issues</li>
+                    <li>Delivered technical reports and project documentation to senior management for strategic decision-making</li>
+                    <li>Enforced OSHA and NEBOSH safety standards, maintaining zero-incident record across all projects</li>
+                </ul>
+            </div>
+
+            <div>
+                <div class="job-title">Civil Maintenance Intern</div>
+                <div class="company">East Jeddah Hospital</div>
+                <div class="date">August 2021 – December 2021</div>
+                <ul class="job-duties">
+                    <li>Executed preventive maintenance protocols for critical hospital infrastructure systems</li>
+                    <li>Analyzed building performance data to identify optimization opportunities</li>
+                    <li>Collaborated with facility management teams to ensure 99.5% operational uptime</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Education</div>
+            <div class="education-item">
+                <div class="degree">Bachelor's Degree in Civil Engineering</div>
+                <div class="university">Technical and Vocational Training Corporation (TVTC)</div>
+                <div class="gpa">GPA: 4.70 | Saudi Arabia</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Core Competencies</div>
+            <div class="skills-grid">
+                <div class="skills-category">
+                    <h4>Technical Skills</h4>
+                    <div class="skills-list">
+                        Construction Management • Site Supervision • Quality Control • Risk Assessment • BIM Modeling (Revit, Civil 3D, Navisworks) • AutoCAD • Microsoft Project • Material Testing & Analysis • Project Scheduling • Cost Control
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h4>Industry Certifications</h4>
+                    <div class="skills-list">
+                        OSHA Certified • NEBOSH Certified • IOSH Certified • Advanced BIM Certification (Revit and Civil 3D)
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Specialized Expertise</div>
+            
+            <div style="margin-bottom: 10px;">
+                <strong>Site Engineering & Construction:</strong> Expert in supervising construction sites, ensuring design compliance, timeline adherence, and safety protocol implementation
+            </div>
+            
+            <div style="margin-bottom: 10px;">
+                <strong>Project Management & Planning:</strong> Proficient in project scheduling, resource allocation, cost control, and stakeholder coordination using industry-standard methodologies
+            </div>
+            
+            <div style="margin-bottom: 10px;">
+                <strong>Quality Assurance & Material Testing:</strong> Skilled in conducting comprehensive material inspections, specification compliance testing, and quality control protocols
+            </div>
+            
+            <div style="margin-bottom: 10px;">
+                <strong>Health, Safety & Risk Management:</strong> Certified in international safety standards with proven track record in maintaining accident-free work environments
+            </div>
+            
+            <div>
+                <strong>Building Information Modeling (BIM):</strong> Advanced expertise in 3D modeling, design coordination, and project visualization using cutting-edge BIM technologies
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Key Achievements</div>
+            <ul class="achievements">
+                <li>Zero safety incidents across all supervised construction projects</li>
+                <li>15% improvement in project delivery timelines through optimized site management</li>
+                <li>98% material compliance rate through rigorous quality control implementation</li>
+                <li>4.70 GPA academic excellence in Civil Engineering program</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Core Strengths</div>
+            <div class="strengths">
+                <div class="strength-item">Leadership & Team Management</div>
+                <div class="strength-item">Cross-Cultural Communication (English & Arabic)</div>
+                <div class="strength-item">Problem-Solving & Conflict Resolution</div>
+                <div class="strength-item">Adaptability & Change Management</div>
+                <div class="strength-item">Time Management & Prioritization</div>
+                <div class="strength-item">Stakeholder Relationship Management</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
